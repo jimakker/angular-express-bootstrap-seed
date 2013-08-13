@@ -1,6 +1,8 @@
-# Angular Express Seed
+# Angular Express Bootstrap Seed
 
-Start an awesome app with AngularJS on the front, Express + Node on the back. This project is an
+Forked from [btford/angular-express-seed](https://github.com/btford/angular-express-seed) and spiced with [Twitter Bootstrap](https://github.com/twitter/bootstrap). jQuery added for convenience.
+
+Start an awesome app with AngularJS + Bootstrap on the front, Express + Node on the back. This project is an
 application skeleton for a typical [AngularJS](http://angularjs.org/) web app for those who want
 to use Node to serve their app.
 
@@ -17,7 +19,7 @@ HTML, and let AngularJS take care of interpolation on the browser side._
 
 ## How to use angular-express-seed
 
-Clone the angular-express-seed repository, run `npm install` to grab the dependencies, and start hacking!
+Clone the angular-express-seed repository and start hacking!
 
 ### Running the app
 
@@ -39,6 +41,10 @@ Just fetch the changes and merge them into your project with git.
     app.js              --> app config
     package.json        --> for npm
     public/             --> all of the files to be used in on the client side
+      bootstrap/        --> all bootstrap files
+        css/
+        img/
+        js/
       css/              --> css files
         app.css         --> default stylesheet
       img/              --> image files
@@ -76,6 +82,3 @@ A simple [blog](https://github.com/btford/angular-express-blog) based on this se
 For more information on AngularJS please check out http://angularjs.org/
 For more on Express and Jade, http://expressjs.com/ and http://jade-lang.com/ are
 your friends.
-
-## License
-MIT
